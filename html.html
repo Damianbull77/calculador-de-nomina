@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquidar sueldo</title>
+</head>
+<body>
+    <h1>Ingrese el total de las ventas realizadas en las dos quincenas sin puntos ni comas</h1>
+    <form id="formulario">
+        <div>
+            <label for="numero1">Total ventas primer quincena:</label>
+            <input type="number" step="0.01" id="numero1" name="numero1" required>
+        </div>
+        <div>
+            <label for="numero2">Total ventas segunda quincena:</label>
+            <input type="number" step="0.01" id="numero2" name="numero2" required>
+        </div>
+        <button onclick="liquidarSalario()" type="submit">Enviar</button>
+    </form>
+    <script src="prueba.js"></script>
+</body>
+</html>
